@@ -14,11 +14,11 @@ body{
     width: 100%;
 
     font-family: "Brolink";
-    color: white;
+    color: #1d4777;
     letter-spacing: 1px;
 
 
-    background-image: url(./bg-02.jpg);
+    background-image: url(./6193277.jpg);
     background-position: top right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,23 +60,23 @@ h1{
 }
 
 #userInput{
-    background-color: rgba(255, 255, 255, 0.250);
+    background-color: rgba(8, 32, 66, 0.25);
     border: none;
     border-radius: 10px;
     height: 75px;
     width: 250px;
     padding: 1em;
-    color: rgba(255, 255, 255, 0.75);
+    color: white;
     font-size: 1.25em;
 
 }
 
 #userInput::placeholder{
-    color: rgba(255, 255, 255, 0.75);
+    color: white
 }
 
 #output{
-    background-color: rgba(255, 255, 255, 0.250);
+    background-color: rgba(8, 32, 66, 0.25);
     border: none;
     border-radius: 10px;
     height: 75px;
@@ -84,12 +84,13 @@ h1{
     padding: 1em;
     font-size: 1em;
     font-family: sans-serif;
+    color: white;
 }
 button{
     background-color: transparent;
     border: none;
 
-    color: rgba(255, 255, 255, 0.75);
+    color: #1d4777;
     font-family: Brolink;
     font-size: 1.25em;
 
@@ -111,3 +112,20 @@ button{
     }
     
 }
+
+@media screen and (max-width: 500px) {
+    body{   
+        background-image: url(./6193282.jpg);
+        background-position: top;
+        color: white;
+    }
+
+    button{
+
+        color: white;
+
+    }
+    
+    
+}
+
