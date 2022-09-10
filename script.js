@@ -10,5 +10,9 @@ convertBtn.addEventListener("click", ()=>{
     fetch(encodeURI(reqURL))
     .then( (response) => response.json())
     .then( (output) => outputDiv.innerText = output.contents.translated)
+    .catch((error) => {
+        alert("Somthing Wrong with Server Please Try Again After Some Time")
+        console.log(error);
+    } )
 })
 
